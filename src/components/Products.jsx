@@ -50,7 +50,7 @@ function Products({ products }) {
           type="text"
           placeholder="Filter by title"
           onChange={(e) => setFilterText(e.target.value)}
-          className="border border-gray-300 rounded-md p-4 w-full focus:outline-none focus:ring-2 focus:ring-blue-500 transition-shadow duration-300 ease-in-out transform hover:scale-105"
+          className="border border-gray-300 rounded-md p-4 w-full focus:outline-none focus:ring-2 focus:ring-blue-500 "
         />
       </form>
   
